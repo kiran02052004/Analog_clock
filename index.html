@@ -6,7 +6,7 @@
     <title>Analog Clock</title>
     <style>
         html {
-            background: #018DED;
+            background: #cbe3f3;
             background-size: cover;
             font-family: 'Helvetica Neue', sans-serif;
             text-align: center;
@@ -15,6 +15,7 @@
 
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -75,9 +76,19 @@
             background: rgb(118, 44, 44);
             left: 5%;
         }
+        .title{
+            font-size: 3rem;
+            font-size: 3rem;
+            color: #333;
+            text-align: center;
+            margin-top: 0;
+            position: relative;
+            top: -20px;
+        }
     </style>
 </head>
 <body>
+    <h1 class="title">Analog Clock</h1>
     <div class="clock">
         <div class="clock-face">
             <div class="hand hour-hand"></div>
